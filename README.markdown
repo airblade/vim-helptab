@@ -2,6 +2,10 @@
 
 Ensure the help docs always open in their own, single tab.
 
+Vim's default behaviour is to open a window and display the help file there, or reuse an existing help window.  However that disrupts your window layout while the help window is open.
+
+This plugin keeps the help window(s) in their own tab, which you can close when you're ready.
+
 
 ## Installation
 
