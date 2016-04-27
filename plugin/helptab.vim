@@ -24,7 +24,7 @@ function! s:HelpTab()
     if tabpagenr() == helptabnr
       return 'h'
     else
-      return 'tabnext '.helptabnr.'\|h'
+      return 'tabnext '.helptabnr.' | h'
     endif
   else
     return 'tab h'
